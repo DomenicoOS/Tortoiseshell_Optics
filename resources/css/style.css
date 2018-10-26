@@ -1,0 +1,149 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+body {
+  line-height: 1.4;
+}
+
+/* Header */
+
+header {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.top-bar {
+  width: 960px;
+  margin: auto;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+}
+
+.white-logo {
+  display: flex;
+  align-items: center;
+}
+
+.white-logo img {
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.white-logo span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+li {
+  display: inline;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.container {
+  float: right;
+}
+
+.slogan {
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+h1 {
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.image img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.image img.paper {
+  width: 3.5rem;
+}
+
+/* Information */
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.title span {
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+
+/* Footer */
+
+.footer {
+  width: 960px;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: azure;
+  display: flex;
+}
+
+.black-logo {
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.black-logo img {
+  height: 1.5rem;
+}
+
+.title-bottom {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
