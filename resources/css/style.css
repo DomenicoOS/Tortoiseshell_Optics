@@ -63,7 +63,7 @@ li {
 .container {
   display: flex;
   justify-content: flex-end;
-  width: 980px;
+  width: 960px;
   margin: 0 auto;
   max-width: 100%;
 
@@ -159,3 +159,35 @@ p {
 }
 
 /* Media Queries */
+
+@media only screen and (max-width: 961px) {
+
+   .top-bar {
+     width: 100%;
+     margin: 0;
+   }
+
+   .container {
+     width: 100%;
+   }
+
+   .footer  {
+     width: 100%;
+   }
+
+   header {
+     padding-top: 0rem;
+     height: 22rem;
+   }
+
+   .slogan {
+     margin-top: 5rem;
+     padding: 0.75rem 4rem;
+     margin-right: 2rem;
+   }
+
+   h1 {
+     font-size: 1.33rem;
+   }
+
+}
