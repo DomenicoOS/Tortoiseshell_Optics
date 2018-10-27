@@ -164,7 +164,6 @@ p {
 
    .top-bar {
      width: 100%;
-     margin: 0;
    }
 
    .container {
@@ -189,5 +188,115 @@ p {
    h1 {
      font-size: 1.33rem;
    }
+
+}
+
+@media only screen and (max-width: 641px) {
+
+  .top-bar {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .slogan {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    margin: 9rem auto 0 auto;
+  }
+
+/* Header */
+
+  header {
+    padding-top: 0rem;
+    height: 17rem;
+    background-position: 20%;
+    margin-bottom: 2.77rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .menu {
+    display: inline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+  }
+
+/* Services */
+
+.services {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image {
+  margin: 0;
+}
+
+.image img {
+  margin: auto;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.image span {
+  font-size: 0.77rem;
+}
+
+/* Information */
+
+.container2 {
+  flex-flow: column;
+  align-items: center;
+  margin-top: 3.77rem;
+}
+
+.title {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.title span {
+  width: 100%;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding-bottom: 4rem;
+  padding-left: 0.5rem;
+}
+
+/* Footer */
+
+  .footer {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .title-bottom {
+    display: none;
+  }
+
+  .black-logo {
+    padding: 4rem 4rem 4rem 4rem;
+  }
 
 }
